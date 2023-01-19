@@ -1,0 +1,1481 @@
+{
+    "success": true,
+    "data": [
+        {
+            "display_name": "Burger",
+            "internal_name": "p1xelplus-vps14",
+            "ip": "37.34.60.157",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1597226404,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38522148,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38527952,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38532828,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38532916,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38530664,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38534784,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068401,
+                            "date_updated": 1674068401
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 38542004,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.2.26",
+                    "date_added": 1597226404,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.6",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.4.27",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Falcon",
+            "internal_name": "p1xelplus-vps5",
+            "ip": "136.144.206.98",
+            "last_backup": null,
+            "last_uptime": 1674083161,
+            "date_added": 1593785369,
+            "date_updated": 1673895601,
+            "drives": [
+                {
+                    "directory": "c:\\",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1593851402,
+                    "date_updated": 1673895601,
+                    "history": [
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13344800,
+                            "disk_space_unit": "K",
+                            "date_added": 1673895601,
+                            "date_updated": 1673895601
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13305084,
+                            "disk_space_unit": "K",
+                            "date_added": 1673892006,
+                            "date_updated": 1673892006
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13324100,
+                            "disk_space_unit": "K",
+                            "date_added": 1673888407,
+                            "date_updated": 1673888407
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13261924,
+                            "disk_space_unit": "K",
+                            "date_added": 1673884806,
+                            "date_updated": 1673884806
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13268360,
+                            "disk_space_unit": "K",
+                            "date_added": 1673881201,
+                            "date_updated": 1673881201
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13273372,
+                            "disk_space_unit": "K",
+                            "date_added": 1673877601,
+                            "date_updated": 1673877601
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 13309700,
+                            "disk_space_unit": "K",
+                            "date_added": 1673874002,
+                            "date_updated": 1673874002
+                        }
+                    ]
+                },
+                {
+                    "directory": "d:\\",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1593851402,
+                    "date_updated": 1673895601,
+                    "history": [
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863668,
+                            "disk_space_unit": "K",
+                            "date_added": 1673895601,
+                            "date_updated": 1673895601
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863672,
+                            "disk_space_unit": "K",
+                            "date_added": 1673892006,
+                            "date_updated": 1673892006
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863672,
+                            "disk_space_unit": "K",
+                            "date_added": 1673888407,
+                            "date_updated": 1673888407
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863688,
+                            "disk_space_unit": "K",
+                            "date_added": 1673884806,
+                            "date_updated": 1673884806
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863704,
+                            "disk_space_unit": "K",
+                            "date_added": 1673881201,
+                            "date_updated": 1673881201
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863716,
+                            "disk_space_unit": "K",
+                            "date_added": 1673877601,
+                            "date_updated": 1673877601
+                        },
+                        {
+                            "total_disk_space": 250878972,
+                            "free_disk_space": 226863716,
+                            "disk_space_unit": "K",
+                            "date_added": 1673874002,
+                            "date_updated": 1673874002
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "display_name": "Feniks",
+            "internal_name": "p1xelplus-vps12",
+            "ip": "37.34.56.239",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086401,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1597226402,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60306344,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60279992,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60318624,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60348608,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60346148,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60359852,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 154662912,
+                            "free_disk_space": 60358456,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.4.33",
+                    "date_added": 1597226402,
+                    "date_updated": 1674086401,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.54",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.6.11",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Filipucci",
+            "internal_name": "p1xelplus-vps32",
+            "ip": "136.144.212.230",
+            "last_backup": 1673748000,
+            "last_uptime": 1674083161,
+            "date_added": 1648771200,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1648822761,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41563332,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41576188,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41572808,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41577520,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41585408,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41586400,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068401,
+                            "date_updated": 1674068401
+                        },
+                        {
+                            "total_disk_space": 50620216,
+                            "free_disk_space": 41590800,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "8.0.26",
+                    "date_added": 1648822761,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "10.3.37",
+                    "date_added": 1648822761,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "LBW",
+            "internal_name": "p1xelplus-vps26",
+            "ip": "141.138.140.99",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1597226403,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190474568,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190481736,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190494212,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190503464,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190515532,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190522752,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 304681132,
+                            "free_disk_space": 190530540,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.4.3",
+                    "date_added": 1597226403,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "Linux",
+                    "date_added": 1620831602,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Linders",
+            "internal_name": "p1xelplus-vps7",
+            "ip": "136.144.155.191",
+            "last_backup": 1674010800,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086401,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1597226402,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43987900,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43987680,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43987044,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43989968,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075601,
+                            "date_updated": 1674075601
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43990888,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43985504,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 43989592,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.2.34",
+                    "date_added": 1597226402,
+                    "date_updated": 1674086401,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.6",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "5.5.68",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Mir",
+            "internal_name": "p1xelplus-vps29",
+            "ip": "37.97.176.209",
+            "last_backup": 1673748000,
+            "last_uptime": 1674083161,
+            "date_added": 1636502400,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.95,
+                    "date_added": 1636538497,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162180784,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162197844,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162209404,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162219472,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162232052,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162231920,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162254492,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.4.33",
+                    "date_added": 1636538497,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.54",
+                    "date_added": 1636538497,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.6.11",
+                    "date_added": 1636538497,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Orel",
+            "internal_name": "p1xelplus-vps35",
+            "ip": "85.10.135.79",
+            "last_backup": null,
+            "last_uptime": 1674083161,
+            "date_added": 1670803200,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.95,
+                    "date_added": 1670857123,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273335968,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273337208,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273339080,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273340192,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273340996,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273344468,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 312997888,
+                            "free_disk_space": 273338168,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "8.1.14",
+                    "date_added": 1670857123,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.54",
+                    "date_added": 1670857123,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.6.11",
+                    "date_added": 1670857123,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Orion",
+            "internal_name": "p1xelplus-vps6",
+            "ip": "37.97.136.71",
+            "last_backup": null,
+            "last_uptime": 1674083161,
+            "date_added": 1593785369,
+            "date_updated": 1674086401,
+            "drives": [
+                {
+                    "directory": "c:\\",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1594199683,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11546696,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086400,
+                            "date_updated": 1674086400
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11557404,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082800,
+                            "date_updated": 1674082800
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11567896,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079200,
+                            "date_updated": 1674079200
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11583108,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075600,
+                            "date_updated": 1674075600
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11599100,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11605116,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068400,
+                            "date_updated": 1674068400
+                        },
+                        {
+                            "total_disk_space": 63332348,
+                            "free_disk_space": 11592728,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                },
+                {
+                    "directory": "d:\\",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1594199684,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47002320,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47002320,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082800,
+                            "date_updated": 1674082800
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47002320,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079200,
+                            "date_updated": 1674079200
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47002320,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075600,
+                            "date_updated": 1674075600
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47002068,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47004364,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068401,
+                            "date_updated": 1674068401
+                        },
+                        {
+                            "total_disk_space": 355736572,
+                            "free_disk_space": 47005396,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "display_name": "Soyuz",
+            "internal_name": "",
+            "ip": "62.148.172.248",
+            "last_backup": 1673748000,
+            "last_uptime": 1674083161,
+            "date_added": 1593785369,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.96,
+                    "date_added": 1593851401,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40047440,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40050168,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40077256,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40079548,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40081512,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40085960,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 324500480,
+                            "free_disk_space": 40096176,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "5.6.40",
+                    "date_added": 1597157504,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "7.0.33",
+                    "date_added": 1597157504,
+                    "date_updated": 1613062802,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.54",
+                    "date_added": 1597157504,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.3.37",
+                    "date_added": 1597157504,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Sputnik",
+            "internal_name": "",
+            "ip": "62.148.174.162",
+            "last_backup": 1673748000,
+            "last_uptime": 1674083161,
+            "date_added": 1593785369,
+            "date_updated": 1674086403,
+            "drives": [
+                {
+                    "directory": "\/home",
+                    "disk_max_usage": 0.94,
+                    "date_added": 1593851401,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162180792,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 310636400,
+                            "free_disk_space": 29001484,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162197844,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 310636400,
+                            "free_disk_space": 28996736,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 310636400,
+                            "free_disk_space": 28983476,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162209404,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162219472,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        }
+                    ]
+                },
+                {
+                    "directory": "\/var",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1598954401,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162180792,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 20511356,
+                            "free_disk_space": 6240516,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162197844,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082802,
+                            "date_updated": 1674082802
+                        },
+                        {
+                            "total_disk_space": 20511356,
+                            "free_disk_space": 6240864,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 20511356,
+                            "free_disk_space": 6241196,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162209404,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 162219472,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075602,
+                            "date_updated": 1674075602
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "2.4.54",
+                    "date_added": 1613059201,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.6.11",
+                    "date_added": 1613059201,
+                    "date_updated": 1674086403,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                },
+                {
+                    "version": "7.4.33",
+                    "date_added": 1639587603,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                }
+            ]
+        },
+        {
+            "display_name": "Te Gek",
+            "internal_name": "p1xelplus-vps24",
+            "ip": "136.144.203.148",
+            "last_backup": 1673751601,
+            "last_uptime": 1674083161,
+            "date_added": 1612369560,
+            "date_updated": 1674086401,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1612370877,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282596784,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282597464,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282598372,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079201,
+                            "date_updated": 1674079201
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282599032,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075601,
+                            "date_updated": 1674075601
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282599248,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072001,
+                            "date_updated": 1674072001
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282600844,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068401,
+                            "date_updated": 1674068401
+                        },
+                        {
+                            "total_disk_space": 307534712,
+                            "free_disk_space": 282601672,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.4.33",
+                    "date_added": 1612370877,
+                    "date_updated": 1674086401,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "10.3.36",
+                    "date_added": 1613059201,
+                    "date_updated": 1674086401,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Tools",
+            "internal_name": "p1xelplus-vps11",
+            "ip": "136.144.218.187",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086403,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1597226404,
+                    "date_updated": 1674086403,
+                    "history": [
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29420316,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086403,
+                            "date_updated": 1674086403
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29419712,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082803,
+                            "date_updated": 1674082803
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29421360,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079203,
+                            "date_updated": 1674079203
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29424224,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075603,
+                            "date_updated": 1674075603
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29428132,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072003,
+                            "date_updated": 1674072003
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29433876,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068403,
+                            "date_updated": 1674068403
+                        },
+                        {
+                            "total_disk_space": 52403200,
+                            "free_disk_space": 29420248,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.2.32",
+                    "date_added": 1597226404,
+                    "date_updated": 1674086403,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.6",
+                    "date_added": 1613057566,
+                    "date_updated": 1674086403,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "5.5.68",
+                    "date_added": 1613057566,
+                    "date_updated": 1674086403,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "Vincio",
+            "internal_name": "p1xelplus-vps23",
+            "ip": "136.144.239.134",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1612369560,
+            "date_updated": 1674086401,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.9,
+                    "date_added": 1612436402,
+                    "date_updated": 1674086401,
+                    "history": [
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300206428,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086401,
+                            "date_updated": 1674086401
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300208988,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300211184,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300213768,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075601,
+                            "date_updated": 1674075601
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300203520,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300205044,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068402,
+                            "date_updated": 1674068402
+                        },
+                        {
+                            "total_disk_space": 311949312,
+                            "free_disk_space": 300207080,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064801,
+                            "date_updated": 1674064801
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.4.33",
+                    "date_added": 1612436402,
+                    "date_updated": 1674086401,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.54",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.6.11",
+                    "date_added": 1613059202,
+                    "date_updated": 1674086401,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        },
+        {
+            "display_name": "ZKS",
+            "internal_name": "p1xelplus-vps8",
+            "ip": "136.144.231.226",
+            "last_backup": 1673751600,
+            "last_uptime": 1674083161,
+            "date_added": 1596812352,
+            "date_updated": 1674086402,
+            "drives": [
+                {
+                    "directory": "\/",
+                    "disk_max_usage": 0.95,
+                    "date_added": 1597226402,
+                    "date_updated": 1674086402,
+                    "history": [
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 32815308,
+                            "disk_space_unit": "K",
+                            "date_added": 1674086402,
+                            "date_updated": 1674086402
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 33572952,
+                            "disk_space_unit": "K",
+                            "date_added": 1674082801,
+                            "date_updated": 1674082801
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 34402628,
+                            "disk_space_unit": "K",
+                            "date_added": 1674079202,
+                            "date_updated": 1674079202
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 35221540,
+                            "disk_space_unit": "K",
+                            "date_added": 1674075601,
+                            "date_updated": 1674075601
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 35923520,
+                            "disk_space_unit": "K",
+                            "date_added": 1674072002,
+                            "date_updated": 1674072002
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 36690516,
+                            "disk_space_unit": "K",
+                            "date_added": 1674068403,
+                            "date_updated": 1674068403
+                        },
+                        {
+                            "total_disk_space": 141659136,
+                            "free_disk_space": 37467964,
+                            "disk_space_unit": "K",
+                            "date_added": 1674064802,
+                            "date_updated": 1674064802
+                        }
+                    ]
+                }
+            ],
+            "services": [
+                {
+                    "version": "7.1.26",
+                    "date_added": 1597226402,
+                    "date_updated": 1674086402,
+                    "name": "php",
+                    "display_name": "PHP"
+                },
+                {
+                    "version": "2.4.6",
+                    "date_added": 1613059201,
+                    "date_updated": 1674086402,
+                    "name": "httpd",
+                    "display_name": "Apache"
+                },
+                {
+                    "version": "10.3.37",
+                    "date_added": 1613059201,
+                    "date_updated": 1674086402,
+                    "name": "mysql",
+                    "display_name": "MySQL"
+                }
+            ]
+        }
+    ]
+}
