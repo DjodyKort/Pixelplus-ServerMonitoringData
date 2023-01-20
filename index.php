@@ -1,49 +1,78 @@
-<?php 
+<?php
+session_start();
+// Checking Access
+
 // ============= Imports =============
 include_once("./files/php/includes/functions.php");
+include_once("./files/php/includes/database_inc.php");
+include_once("./files/php/includes/security_inc.php");
 
 // ==================== Declaring Variables ====================
-$jsonServerData = getJSONServerData();
-
+// Setting session AccessGranted to false
+$_SESSION['AccessGranted'] = False;
 // ==== POST ====
 if (!empty($_POST)) {
-    $strUsername = $_POST["formUsername"];
-    $strPassword = $_POST["formPassword"];
+    $formCSRFToken = $_POST["formCSRFToken"];
+    echo($formCSRFToken."<br/>");
+    echo($_SESSION["csrfToken"]);
+    if ($_SESSION["csrfToken"] === $formCSRFToken) {
+        // CSRF Token is valid then continue to process the form
+        $formEmail = cleanPost("formEmail");
+        $formPassword = cleanPost("formPassword");
+
+        // SQL Querys
+        $sqlQuery = "SELECT * FROM `users_tbl`;";
+    }
 }
 
 // ===================== Start of Code =====================
-// ==== POST ====
 if (!empty($_POST)) {
-    if ($strUsername == "admin" && $strPassword == "admin") {
-        echo("Login Successful");
-    } else {
-        echo("Login Failed");
+    if ($_SESSION["csrfToken"] === $formCSRFToken) {
+        $accounts = PdoSqlReturnArray($sqlQuery);
+        foreach ($accounts as $account) {
+            $decEmail = strDecrypt($account["encEmail"], $account["encNonce"], $account["encKey"]);
+
+            if ($decEmail === $formEmail) {
+                if (password_verify($formPassword, $account["encPassword"])) {
+                    $_SESSION['AccessGranted'] = True;
+                    header("Location: ./files/php/pages/mainpage.php");
+                }
+                else {
+                    echo("Credentials are incorrect");
+                }
+            }
+            else {
+                echo("Credentials are incorrect");
+            }
+        }
+    }
+    else {
+        // CSRF Token is invalid
+        echo("CSRF Token is invalid... Please try again");
     }
 }
-// CSRF Token
-$_SESSION["csrfToken"] = base64_encode(random_bytes(32));
-
 // ==== HTML Echo ====
+// CSRF Token
+createCSRF();
 // Login Screen
-echoHTML_Header();
+echoHTML_Header("Mainpage");
 echo("
     <h1 class='text-center'>PixelPlus Server Monitoring Login</h1>
     
     <div class='container'>
         <form method='POST'>
             <div class='form-group'>
-                <label for='username'>Username: </label>
-                <input type='text' class='form-control' name='formUsername' id='idFormUsername' placeholder='Enter Username'>
+                <label for='idFormEmail'>Email: </label>
+                <input type='text' class='form-control' name='formEmail' id='idFormEmail' placeholder='Enter Email'>
             </div>
             <div class='form-group'>
-                <label for='password'>Password: </label>
+                <label for='idFormPassword'>Password: </label>
                 <input type='password' class='form-control' name='formPassword' id='idFormPassword' placeholder='Enter Password'>
             </div>
-            <input type='hidden' name='formCSRFToken' id='idFormCSRFToken' content='".$_SESSION['csrfToken']."'>
+            <input type='hidden' name='formCSRFToken' id='idFormCSRFToken' value='".$_SESSION['csrfToken']."'>
             <button type='submit' class='btn btn-primary'>Submit</button>
         </form>
     </div>
 ");
-echoHTML_Footer();
-
+echoHTML_Footer("Mainpage");
 ?>
