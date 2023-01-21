@@ -19,6 +19,12 @@ function getJSONServerData() {
     else {return false;}
 }
 
+function unixToHuman($unixTime) {
+    // ======== Start of Function =======
+    return date("d-m-Y H:i:s", $unixTime);
+}
+
+
 // HTML Functions
 function echoHTML_Header(string $page=""): void {
     // ======== Declaring Variables ========
