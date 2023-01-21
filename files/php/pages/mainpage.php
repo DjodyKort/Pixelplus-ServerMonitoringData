@@ -2,7 +2,7 @@
 session_start();
 // Checking Access
 if(!$_SESSION['AccessGranted']){
-    header('location:../../index.php');
+    header('location:../../../index.php');
 }
 // ============= Imports =============
 include_once("../includes/functions.php");
@@ -10,18 +10,18 @@ include_once("../includes/database_inc.php");
 include_once("../includes/security_inc.php");
 
 // ==================== Declaring Variables ====================
-// ==== POST ====
-
-
+$jsonData = getJSONServerData();
 // ===================== Start of Code =====================
-// ==== POST ====
-
 
 // ==== HTML Echo ====
 // Creating new user form
-echoHTML_Header();
-echoNavbar();
+echoHTML_Header("Mainpage - Server Monitor");
+echoNavbar("Mainpage - Server Monitor");
 echo("
+    <h1>PixelPlus Server Monitor System</h1>
     
+    <div>
+    
+    </div>
 ");
-echoHTML_Footer();
+echoHTML_Footer("Mainpage - Server Monitor");

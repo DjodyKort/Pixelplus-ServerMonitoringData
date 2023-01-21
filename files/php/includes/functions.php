@@ -12,8 +12,11 @@ function getJSONServerData() {
     $apiToken = "ZBuwzQqlxQUIWwEbtooWYSPPmdfjnGMU";
     $apiUrl = $apiEndpoint . $apiToken;
     // ======== Start of Function ========
-    return json_decode(file_get_contents($apiUrl), true);
-
+    $jsonData = json_decode(file_get_contents($apiUrl), true);
+    if ($jsonData["success"]) {
+        return $jsonData["data"];
+    }
+    else {return false;}
 }
 
 // HTML Functions

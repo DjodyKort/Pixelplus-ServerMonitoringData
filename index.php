@@ -12,43 +12,31 @@ include_once("./files/php/includes/security_inc.php");
 $_SESSION['AccessGranted'] = False;
 // ==== POST ====
 if (!empty($_POST)) {
-    $formCSRFToken = $_POST["formCSRFToken"];
-    echo($formCSRFToken."<br/>");
-    echo($_SESSION["csrfToken"]);
-    if ($_SESSION["csrfToken"] === $formCSRFToken) {
-        // CSRF Token is valid then continue to process the form
-        $formEmail = cleanPost("formEmail");
-        $formPassword = cleanPost("formPassword");
+    $formEmail = cleanPost("formEmail");
+    $formPassword = cleanPost("formPassword");
 
-        // SQL Querys
-        $sqlQuery = "SELECT * FROM `users_tbl`;";
-    }
+    // SQL Querys
+    $sqlQuery = "SELECT * FROM `users_tbl`;";
 }
 
 // ===================== Start of Code =====================
 if (!empty($_POST)) {
-    if ($_SESSION["csrfToken"] === $formCSRFToken) {
-        $accounts = PdoSqlReturnArray($sqlQuery);
-        foreach ($accounts as $account) {
-            $decEmail = strDecrypt($account["encEmail"], $account["encNonce"], $account["encKey"]);
+    $accounts = PdoSqlReturnArray($sqlQuery);
+    foreach ($accounts as $account) {
+        $decEmail = strDecrypt($account["encEmail"], $account["encNonce"], $account["encKey"]);
 
-            if ($decEmail === $formEmail) {
-                if (password_verify($formPassword, $account["encPassword"])) {
-                    $_SESSION['AccessGranted'] = True;
-                    header("Location: ./files/php/pages/mainpage.php");
-                }
-                else {
-                    echo("Credentials are incorrect");
-                }
+        if ($decEmail === $formEmail) {
+            if (password_verify($formPassword, $account["encPassword"])) {
+                $_SESSION['AccessGranted'] = True;
+                header("Location: ./files/php/pages/mainpage.php");
             }
             else {
                 echo("Credentials are incorrect");
             }
         }
-    }
-    else {
-        // CSRF Token is invalid
-        echo("CSRF Token is invalid... Please try again");
+        else {
+            echo("Credentials are incorrect");
+        }
     }
 }
 // ==== HTML Echo ====
@@ -69,7 +57,6 @@ echo("
                 <label for='idFormPassword'>Password: </label>
                 <input type='password' class='form-control' name='formPassword' id='idFormPassword' placeholder='Enter Password'>
             </div>
-            <input type='hidden' name='formCSRFToken' id='idFormCSRFToken' value='".$_SESSION['csrfToken']."'>
             <button type='submit' class='btn btn-primary'>Submit</button>
         </form>
     </div>
