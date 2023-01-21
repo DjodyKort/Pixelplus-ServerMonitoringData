@@ -23,14 +23,16 @@ echo("
 echo("<div class='container'>");
 foreach ($jsonData as $server) {
     echo ("
-        <div class='card'>
+        <div class='card' style='width:600px;'>
             <div class='card-header'>
                 <h3 class='card-title'>".$server['display_name']."</h3>
             </div>
             <div class='card-body'>
                 <p class='card-text'>IP: ".$server['ip']."</p>
                 <p class='card-text'>Last Uptime: ".$server['last_uptime']."</p>
+            </div>
         </div>
+        <br/><br/><br/><br/>
     ");
 }
 echo("</div>");
