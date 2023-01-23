@@ -1,0 +1,20 @@
+/* Global Styling */
+.center {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+
+}
+/* End Global Styling */
+
+/* Mainpage Styling */
+.text-margin-card span {
+    /* Position */
+    margin-left: 10px;
+}
+.mainpage-h4 {
+    /* Position */
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* End Mainpage Styling*/

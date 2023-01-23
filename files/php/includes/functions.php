@@ -20,8 +20,28 @@ function getJSONServerData() {
 }
 
 function unixToHuman($unixTime) {
+    // ======= Declaring Variables =======
+    $date = date("d-m-Y", $unixTime);
+    $time = date("H:i:s", $unixTime);
+
     // ======== Start of Function =======
-    return date("d-m-Y H:i:s", $unixTime);
+    if ($date == date("d-m-Y")) {
+        return "Today at " . $time;
+    }
+    else if ($date == date("d-m-Y", strtotime("-1 day"))) {
+        return "Yesterday at " . $time;
+    }
+    else {
+        return $date . " at " . $time;
+    }
+}
+
+
+function decimalToPercentage($strDecimal) {
+    // ======= Declaring Variables =======
+
+    // ======== Start of Function =======
+    return $strDecimal * 100 . "%";
 }
 
 
@@ -31,9 +51,11 @@ function echoHTML_Header(string $page=""): void {
     $strPageTitle = "PixelPlus - " . $page;
     if ($page != "Mainpage") {
         $bootstrapHref = "../../css/bootstrap.min.css";
+        $styleSheet = "../../css/style.css";
     }
     else {
         $bootstrapHref = "./files/css/bootstrap.min.css";
+        $styleSheet = "./files/css/style.css";
     }
     // ======== Start of Function ========
     echo("
@@ -41,8 +63,14 @@ function echoHTML_Header(string $page=""): void {
     <html lang='en'>
         <head>
             <title>PixelPlus Server Monitoring Visualization</title>
+            <!-- Jquery -->
+            <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
             <!-- Bootstrap CSS From Files -->
-            <link rel='stylesheet' href='".$bootstrapHref."'
+            <link rel='stylesheet' href='".$bootstrapHref."'>
+            <!-- Custom CSS -->
+            <link rel='stylesheet' href='".$styleSheet."'>
+        </head>
+        
         <body>
     ");
 }
@@ -76,10 +104,40 @@ function echoHTML_Footer(string $page=""): void {
     }
     // ======== Start of Function ========
     echo("
+            <!-- Jquery -->
+            
             <!-- Bootstrap JS -->
             <script src='".$bootstrapHref."'></script>
         </body>
     </html>
     ");
 }
+
+// Collapse Content
+// Drive Content
+function serverDriveContent($serverDriveData): void
+{
+    foreach ($serverDriveData as $drive) {
+        echo("
+       <div>
+            <p>Disk Usage: ".decimalToPercentage($drive['disk_max_usage'])."</p>
+            <p> </p>
+        </div>
+       ");
+    }
+}
+
+
+function serverServiceContent($serverServiceData): void
+{
+    foreach ($serverServiceData as $service) {
+        echo("
+       <div>
+            <p>Service: ".$service['name']."</p>
+        </div>
+       ");
+    }
+}
+
+// Services Content
 ?>
