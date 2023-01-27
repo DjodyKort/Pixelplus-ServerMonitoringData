@@ -8,8 +8,6 @@ include_once("./files/php/includes/database_inc.php");
 include_once("./files/php/includes/security_inc.php");
 
 // ==================== Declaring Variables ====================
-// Setting session AccessGranted to false
-$_SESSION['AccessGranted'] = False;
 // ==== POST ====
 if (!empty($_POST)) {
     $formEmail = cleanPost("formEmail");

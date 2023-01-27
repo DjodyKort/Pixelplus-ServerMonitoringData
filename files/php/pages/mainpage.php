@@ -22,6 +22,13 @@ echo("
 ");
 
 foreach ($jsonData as $server) {
+    // Checking if services exist
+    if (!empty($server['services'])) {
+        $serverServices = $server['services'];
+    }
+    else {
+        $serverServices = array();
+    }
     echo ("
         <div class='card mx-auto' style='width:600px;'>
             <div class='card-header'>
@@ -35,26 +42,28 @@ foreach ($jsonData as $server) {
             <div class='card-body'>
                 <!-- Colapsable button -->
                 <h4 class='mainpage-h4'>Drives</h4>
-                <a class='btn btn-primary center' data-bs-toggle='collapse' href='#button".$server['display_name']."Drives' role='button' aria-expanded='false' aria-controls='button".$server['display_name']."Drives'>
+                <a class='btn btn-primary center' data-bs-toggle='collapse' href='#button".spacesToUnderscores($server['display_name'])."Drives' role='button' aria-expanded='false' aria-controls='button".spacesToUnderscores($server['display_name'])."Drives'>
                     <img width='50px' src='../../img/Dropdown.png'/>
                 </a>
 
                 <!-- Collapsable Content (Drives) -->
-                <div class='collapse' id='button".$server['display_name']."Drives'>");
-                    serverDriveContent($server['drives']); echo("
+                <div class='collapse' id='button".spacesToUnderscores($server['display_name'])."Drives'>
+                    <div class='accordion accordion-flush' id='accordionFlushExample'>");
+                        echoServerDriveContent($server['drives'], spacesToUnderscores($server['display_name'])); echo("
+                    </div>
                 </div>
                 
                 <hr/>
                 
                 <!-- Colapsable button -->
                 <h4 class='mainpage-h4'>Services</h4>
-                <a class='btn btn-primary center' data-bs-toggle='collapse' href='#button".$server['display_name']."Services' role='button' aria-expanded='false' aria-controls='button".$server['display_name']."Services'>
+                <a class='btn btn-primary center' data-bs-toggle='collapse' href='#button".spacesToUnderscores($server['display_name'])."Services' role='button' aria-expanded='false' aria-controls='button".spacesToUnderscores($server['display_name'])."Services'>
                     <img width='50px' src='../../img/Dropdown.png'/>
                 </a>
                 
                 <!-- Collapsable Content (Services) -->
-                <div class='collapse' id='button".$server['display_name']."Services'>");
-                    serverServiceContent($server['services']); echo("
+                <div class='collapse' id='button".spacesToUnderscores($server['display_name'])."Services'>");
+                    echoServerServiceContent($serverServices); echo("
                 </div>
                 
                 
