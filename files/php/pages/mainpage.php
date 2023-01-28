@@ -1,13 +1,12 @@
 <?php
 session_start();
 // Checking Access
-if(!$_SESSION['AccessGranted']){
-    header('location:../../../index.php');
-}
 // ============= Imports =============
+include_once("../includes/security_inc.php");
+checkAuth($_SESSION['AccessGranted']);
 include_once("../includes/functions.php");
 include_once("../includes/database_inc.php");
-include_once("../includes/security_inc.php");
+
 
 // ==================== Declaring Variables ====================
 $jsonData = getJSONServerData();

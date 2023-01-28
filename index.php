@@ -28,13 +28,10 @@ if (!empty($_POST)) {
                 $_SESSION['AccessGranted'] = True;
                 header("Location: ./files/php/pages/mainpage.php");
             }
-            else {
-                echo("Credentials are incorrect");
-            }
         }
-        else {
-            echo("Credentials are incorrect");
-        }
+    }
+    if (!$_SESSION['AccessGranted']) {
+        echo("Credentials are incorrect");
     }
 }
 // ==== HTML Echo ====

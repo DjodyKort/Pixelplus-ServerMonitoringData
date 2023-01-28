@@ -56,3 +56,11 @@ function strDecrypt(string $strInput, string $encNonce, string $encKey) {
     // Return
     return($plaintext);
     }
+
+// Function: A function to check if the user is allowed to access the page
+
+function checkAuth($sessionValue) {
+    if(!$sessionValue){
+        header('location:../../../index.php');
+    } // endif access granted
+}

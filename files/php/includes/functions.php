@@ -121,10 +121,10 @@ function echoHTML_Footer(string $page=""): void {
     }
     // ======== Start of Function ========
     echo("
-            <!-- Jquery -->
-            
-            <!-- Bootstrap JS -->
-            <script src='".$bootstrapHref."'></script>
+            <footer>
+                <!-- Bootstrap JS -->
+                <script src='".$bootstrapHref."'></script>
+            </footer>
         </body>
     </html>
     ");
@@ -144,7 +144,7 @@ function echoServerDriveHistory($serverDriveHistoryData, $serverNameAndID)
             <!-- Accordion header 1 -->
             <h2 class='accordion-header' id='flush-headingOne".$targetID."'>
                 <button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#flush-collapseOne".$targetID."' aria-expanded='false' aria-controls='flush-collapseOne".$targetID."'>
-                    <b>".unixToHuman($history["date_updated"])."</b>
+                    <b>".unixToHuman($history["date_updated"]-3600)."</b>
                 </button>
             </h2>
             <!-- Accordion body 1 -->
@@ -178,8 +178,8 @@ function echoServerDriveContent($serverDriveData, $serverName)
             <div class='collapse' id='drive".$targetID."'>
                 <div class='card card-body'>
                     <p><b>Maximal Usage:</b> ".decimalToPercentage($drive['disk_max_usage'])."</p><br/>
-                    <p><b>Date added:</b> ".unixToHuman($drive['date_added'])."</p>
-                    <p><b>Date updated:</b> ".unixToHuman($drive['date_updated'])."</p><br/>
+                    <p><b>Date added:</b> ".unixToHuman($drive['date_added']-3600)."</p>
+                    <p><b>Date updated:</b> ".unixToHuman($drive['date_updated']-3600)."</p><br/>
                     <br/>
                     <h4 class='text-center'>History:</h4>");
                     echoServerDriveHistory($drive['history'], $targetID); echo("

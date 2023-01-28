@@ -3,12 +3,20 @@
 // Function to connect to the database
 function connectToDB(){
     $Hostname   = "localhost";      // Database servername
-    $DBname     = "pixelplus";           // Database name
-    $Username   = "root";           // Database Email
-    $Password   = "";   // Database user password
-    $conn = new PDO("mysql:host=$Hostname; dbname=$DBname", $Username, $Password); // Create the actual connection
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    return($conn);
+    $DBname     = "deb142504_pixelplus";           // Database name
+    $port       = "3306";           // Database port
+    $Username   = "deb142504_pixelplus";           // Database Email
+    $Password   = "100%procentVeiligWachtwoord";   // Database user password
+    try {
+        $conn = new PDO("mysql:host=[$Hostname];port=$port; dbname=$DBname", $Username, $Password); // Create the actual connection
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return($conn);
+    }
+    catch (PDOException $e) {
+        echo "Connection failed: " . $e->getMessage();
+        return(False);
+    }
+
 }
 
 // Function to execute a query and return the fetched data as array
