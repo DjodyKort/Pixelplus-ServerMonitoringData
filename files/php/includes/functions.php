@@ -59,7 +59,7 @@ function kiloBytestoGigabytes($strKiloBytes) {
 }
 
 
-// HTML Functions
+// ======================== HTML Functions ========================
 function echoHTML_Header(string $page=""): void {
     // ======== Declaring Variables ========
     $strPageTitle = "PixelPlus - " . $page;
@@ -104,6 +104,9 @@ function echoNavbar(string $page=""): void {
                 </li>
                 <li class='nav-item'>
                     <a class='nav-link' href='./logout.php'>Logout</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='https://github.com/DjodyKort/Pixelplus-ServerMonitoringData/'>Github of Project</a>
                 </li>
             </ul>
     </navbar>
