@@ -35,8 +35,6 @@ if (!empty($_POST)) {
     }
 }
 // ==== HTML Echo ====
-// CSRF Token
-createCSRF();
 // Login Screen
 echoHTML_Header("Mainpage");
 echo("

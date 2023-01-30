@@ -65,8 +65,6 @@ foreach ($jsonData as $server) {
                     echoServerServiceContent($serverServices); echo("
                 </div>
                 
-                
-
             </div>
         </div>
         <br/><br/><br/><br/>
