@@ -11,8 +11,15 @@ function getJSONServerData() {
     $apiEndpoint = "https://servers.pixelplus.nl/api/v1/servers?token=";
     $apiToken = "ZBuwzQqlxQUIWwEbtooWYSPPmdfjnGMU";
     $apiUrl = $apiEndpoint . $apiToken;
+
     // ======== Start of Function ========
-    $jsonData = json_decode(file_get_contents($apiUrl), true);
+    // Getting the JSON Data with curl
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $apiUrl);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $jsonData = json_decode(curl_exec($curl), true);
+    curl_close($curl);
+    
     if ($jsonData["success"]) {
         return $jsonData["data"];
     }

@@ -10,6 +10,7 @@ include_once("../includes/database_inc.php");
 
 // ==================== Declaring Variables ====================
 $jsonData = getJSONServerData();
+
 // ===================== Start of Code =====================
 
 // ==== HTML Echo ====
@@ -20,15 +21,16 @@ echo("
     <h1 class='text-center'>PixelPlus Server Monitoring System</h1>
 ");
 
-foreach ($jsonData as $server) {
-    // Checking if services exist
-    if (!empty($server['services'])) {
-        $serverServices = $server['services'];
-    }
-    else {
-        $serverServices = array();
-    }
-    echo ("
+if (!empty($jsonData)) {
+    foreach ($jsonData as $server) {
+        // Checking if services exist
+        if (!empty($server['services'])) {
+            $serverServices = $server['services'];
+        }
+        else {
+            $serverServices = array();
+        }
+        echo ("
         <div class='card mx-auto' style='width:600px;'>
             <div class='card-header'>
                 <h3 class='card-title text-center'>".$server['display_name']."</h3>
@@ -48,7 +50,7 @@ foreach ($jsonData as $server) {
                 <!-- Collapsable Content (Drives) -->
                 <div class='collapse' id='button".spacesToUnderscores($server['display_name'])."Drives'>
                     <div class='accordion accordion-flush' id='accordionFlushExample'>");
-                        echoServerDriveContent($server['drives'], spacesToUnderscores($server['display_name'])); echo("
+        echoServerDriveContent($server['drives'], spacesToUnderscores($server['display_name'])); echo("
                     </div>
                 </div>
                 
@@ -62,12 +64,13 @@ foreach ($jsonData as $server) {
                 
                 <!-- Collapsable Content (Services) -->
                 <div class='collapse' id='button".spacesToUnderscores($server['display_name'])."Services'>");
-                    echoServerServiceContent($serverServices); echo("
+        echoServerServiceContent($serverServices); echo("
                 </div>
                 
             </div>
         </div>
         <br/><br/><br/><br/>
     ");
+    }
 }
 echoHTML_Footer("Mainpage - Server Monitor");
